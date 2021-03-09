@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.currentGame.CurrentGame2Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/llPlayerListContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_for_item_container"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/llPlayerContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tvPlayerName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:gravity="start"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:text="TextView"
+                        android:textColor="@color/font_color_for_bold_TextView"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/cbWinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/checkBoxTintColor"
+                        android:text="우승"
+                        android:textColor="@color/font_color_for_bold_TextView"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/cbSecond"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/checkBoxTintColor"
+                        android:text="2등"
+                        android:textColor="@color/font_color_for_bold_TextView"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/cbThird"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/checkBoxTintColor"
+                        android:text="3등"
+                        android:textColor="@color/font_color_for_bold_TextView"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSaveGame"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/background_button_black"
+            android:text="저장"
+            android:textColor="@color/font_white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnNextGame"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/background_button_black"
+            android:text="한판 더!"
+            android:textColor="@color/font_white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnUpdateGame"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/background_button_black"
+            android:text="수정"
+            android:textColor="@color/font_white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnFinishGame"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/background_button_blue"
+            android:text="종료"
+            android:textColor="@color/font_color_for_blue_button"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e4e65e</color>
+    <color name="colorPrimaryDark">#7c8500</color>
+    <color name="colorAccent">#7c8500</color>
+    <color name="minusAmount">#FF5050</color>
+    <color name="plusAmount">#4646FA</color>
+    <color name="font_white">#ffffff</color>
+    <color name="font_color_for_blue_button">#39434c</color>
+    <color name="font_color_for_bold_TextView">#2c3338</color>
+    <color name="font_color_for_light_TextView">#5c626b</color>
+    <color name="font_color_for_EditText">#93969d</color>
+    <color name="darkGreen">#4e753c</color>
+    <color name="middleGreen">#5e8d49</color>
+    <color name="lightGreen">#6ea756</color>
+    <color name="checkBoxTintColor">#7c8500</color>
+</resources>

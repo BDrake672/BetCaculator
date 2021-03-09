@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 화폐 스피너 아이템들-->
+    <string-array name="currency">
+        <item>￦</item>
+        <item>＄</item>
+        <item>€</item>
+        <item>￡</item>
+        <item>￥</item>
+    </string-array>
+    <string-array name="emailHost">
+        <item>선택하세요</item>
+        <item>직접입력</item>
+        <item>gmail.com</item>
+        <item>naver.com</item>
+        <item>daum.net</item>
+        <item>nate.com</item>
+    </string-array>
+    <string-array name="PlayerCount">
+        <item>선택하세요</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="typeOfDistribution">
+        <item>선택하세요</item>
+        <item>1등 몰아주기</item>
+        <item>2등까지 분배</item>
+        <item>3등까지 분배</item>
+    </string-array>
+    <string-array name="gameCategory">
+        <item>선택하세요</item>
+        <item>포커</item>
+        <item>섯다</item>
+        <item>추가중...</item>
+    </string-array>
+</resources>

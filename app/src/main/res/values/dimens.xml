@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_elevation1">1dp</dimen>
+    <dimen name="card_elevation5">5dp</dimen>
+    <dimen name="tenSP">10sp</dimen>
+    <dimen name="elevenSP">11sp</dimen>
+    <dimen name="twelveSP">12sp</dimen>
+    <dimen name="thirteenSP">13sp</dimen>
+    <dimen name="fourteenSP">14sp</dimen>
+    <dimen name="fifteenSP">15sp</dimen>
+    <dimen name="sixteenSP">16sp</dimen>
+    <dimen name="seventeenSP">17sp</dimen>
+    <dimen name="eighteenSP">18sp</dimen>
+    <dimen name="nineteenSP">19sp</dimen>
+    <dimen name="twentySP">20sp</dimen>
+</resources>

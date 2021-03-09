@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bet Helper</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3358204980194151/8604592253</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "101683134700",
+    "firebase_url": "https://bet-calculator-ec4e4.firebaseio.com",
+    "project_id": "bet-calculator-ec4e4",
+    "storage_bucket": "bet-calculator-ec4e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101683134700:android:db41551871a215454de5c9",
+        "android_client_info": {
+          "package_name": "com.myapp.betcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101683134700-3cgsb43f0bef85bmmb18p47icbgtm7i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCO7xpo_o8Pg3WzvGV3gHePrIueZb2kVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101683134700-3cgsb43f0bef85bmmb18p47icbgtm7i9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
